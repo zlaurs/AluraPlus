@@ -1,33 +1,386 @@
-:root {
+root {
 
---branco-principal: #FFFFFF;    
---cinza-secundario: #C0C0C0;
---botao-azul: #167BF7;
---cor-de-fundo: #00030C;
+    --branco-principal: #FFFFFF;    
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: Inter;
+    
+    
+    }
+    
+    
+    body{:root {
+    
+    --branco-principal: #FFFFFF;    
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: Inter;
+    
+    
+    }
+    
+    
+    body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+       }
+    
+    /* INICIO AULA 02 */
+    .principal {
+    
+        background-image: url("img/Background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    
+       }
+    /*  FIM AULA 03 */
+    
+    
+    
+    /*   INICIO AULA 04  */
+    .container__botao {
+        background-color: var(--botao-azul);
+        border-radius: 5px;
+        /*   alterado  padding: lem; */
+        padding: 2%;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+        margin-bottom: none;
+    
+    }
+    
+    /* FIM DA AULA 4 */
+    
+    .botao_secundario {
+        background-color: transparent;
+        border: 2px solid var(--branco-principal);
+       }
+    
+    
+    .container__aviso{
+        font-size: 12px;
+        color: var(--cinza-secundario);
+    }
+    
+    .container__titulo{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    
+    /* FIM DA AULA 4 */
+    .container__imagem{
+        margin: lem 0 2em 0;
+    }
+    
+    .container__caixa{
+        margin: 0 6em;
+    }
+    
+    
+    
+    .secundario__imagem {
+    
+        width: 80%;
+    }
+    
+    .secundario {
+        align-items: center;
+        margin:0 10em;
+    }
+    
+    
+    .descricao__titulo {
+        font-weight: 700;
+        font-size: 48px;
+        color:var(--branco-principal);
+        margin-bottom: 0.1em;
+    }
+    
+    
+    .descricao__texto {
+        color: var(--cinza-secundario);
+    
+        
+    }
+    
+    
+    
+    .secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+    
+    }
+    
+    
+    .container__descricao {
+        padding: 2em;
+    
+    }
+    
+    .dispositivos__lista { 
+    
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 5em 0;
+        
+    }
+    
+    .dispositivos {
+        text-align: center;
+    
+    }
+    
+    .lista__item {
+        font-size: 32px;
+        color:var(--branco-principal);
+    
+    }
+    
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+       }
+    
+    /* INICIO AULA 02 */
+    .principal {
+    
+        background-image: url("img/Background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    
+       }
+    /*  FIM AULA 03 */
+    
+    
+    
+    /*   INICIO AULA 04  */
+    .container__botao {
+        background-color: var(--botao-azul);
+        border-radius: 5px;
+        /*   alterado  padding: lem; */
+        padding: 2%;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+        margin-bottom: none;
+    
+    }
+    
+    /* FIM DA AULA 4 */
+    
+    .botao_secundario {
+        background-color: transparent;
+        border: 2px solid var(--branco-principal);
+       }
+    
+    
+       .container__aviso{
+           font-size: 12px;
+           color: var(--cinza-secundario);
+    }
+    
+    .container__titulo{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    
+    /* FIM DA AULA 4 */
+    .container__imagem{
+        margin: lem 0 2em 0;
+    }
+    
+    .container__caixa{
+        margin: 0 6em;
+    
+    
+        .container__aviso{
+            font-size: 12px;
+            color: var(--cinza-secundario);
+    }
+    
+    
+    
+    .secundario__imagem {
+    
+        width: 80%;
+    }
+    
+    .secundario {
+        align-items: center;
+        margin:0 10em;
+    }
+    
+    
+    .descricao__titulo {
+        font-weight: 700;
+        font-size: 48px;
+        color:var(--branco-principal);
+        margin-bottom: 0.1em;
+    }
+    
+    
+    .descricao__texto {
+        color: var(--cinza-secundario);
+    
+        
+    }
+    
+    
+    
+    .secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+    
+    }
+    
+    
+    .container__descricao {
+        padding: 2em;
+    
+    }
+    
+    .dispositivos__lista { 
+    
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 5em 0;
+        
+    }
+    
+    .dispositivos {
+        text-align: center;
+    
+    }
+    
+    .lista__item {
+        font-size: 32px;
+        color:var(--branco-principal);
+    
+    }
+    
+    .rodape__lista{
+        display:flex;
+        justify-contentent:center;
+        list-style-type:none;
+        margin-top:1em;
+    }
+    
+    .lista__link a{
+        text-decoration:none;
+        text-decoration:none;
+        color:var(--branco-principal);
+        margin:0 16px 0 16px;
+        font-size: 14px;
+    
+    }
+    
+    .rodape__texto{
+        margin:1em 0;
+        color: var(--cinza-segundaria);
+        font_size: 12px;
+    }
+    
+    .rodape{
+        text-aling:center;
+        margin: 5em 3em;
+    
+    }
+    
+    .lista-link a:hove{
+        color:var(--botoa-azul);
+    
+    }
+    
+    .lista__link a:active{
+        color:purple;
+    
+    }
+    
+    .container__botao:hover{
+        backgroud-color:var(--botao-azul-efeito);
+        color:var(--cor-de-fundo);
+    
+    }
+    
+        .lista__item {
+    
+    font-size: 32px; color:var(--branco-principal):
+    
+    }
+    
+    
+    rodape lista { display: flex;
+    
+    justify-content: center; list-style-type: none; margin-top: 1em;
+    }
+    
+    .lista__link a{ 
+    text-decoration: none;
+    text-decoration: none; Color: var(--branco-principal); margin: 0 16px 0 16px; font-size: 14px;
+    
+    }
+    
+    .rodape_texto { margin: 1em 0; color: var(--cinza-secundario); font-size: 12px;
+    
+    }
 
+    rodape{
+text-align: center; 
+margin: 5em 3em;
+    }
 
+lista link a:hover {
+color: var(-botao-azul);
 }
-
-
-body{
-background-color: var(--cor-de-fundo);
-color: var(--branco-principal);
-
+lista link a:active { 
+    color: purple;
 }
+container_botao:hover{
 
-* {
-    margin: 0;
-    padding: 0;
-   }
-
-.principal {
-
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+background-color: var(--botao-azul-efeito);
+ color: var(-cor-de-fundo);
 }
-
-
-.container {
-    height: 100vh;
-   }
